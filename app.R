@@ -7,7 +7,7 @@ library(devtools)
 library(readAny)
 library(DT)
 
-title = read.any("data/title.csv",header=TRUE)[,2:4]
+title = read.any("./data/title.csv",header=TRUE)[,2:4]
 
 
 
